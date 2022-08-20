@@ -1,0 +1,18 @@
+{
+  "produtos": [
+   { "id": 2,
+   "codigo": 2020,
+    "nome": "produto",
+    "preco": 14.00,
+    "vendas": 2,
+    "descricao": "jfnaoghoago"
+  },
+  { "id": 2,
+   "codigo": 2020,
+    "nome": "produto",
+    "preco": 14.00,
+    "vendas": 2,
+    "descricao": "jfnaoghoago"
+  }
+  ]
+}
