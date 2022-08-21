@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary container">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           CRUDBOX
         </a>
         <button
@@ -23,13 +23,13 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/">
-                Home
+                Deshboard
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/produtos">
-                Produtos
+               Produtos
               </NavLink>
             </li>
 
@@ -40,9 +40,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-outline-light w-25">
+        <Link to="/produtos/add" className="btn btn-outline-light w-25">
           Adicionar Produto
-        </button>
+        </Link>
       </div>
     </nav>
   )
