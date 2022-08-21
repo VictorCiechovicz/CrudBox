@@ -46,18 +46,20 @@ const Produtos = () => {
                 <td>{produtos.vendas}</td>
                 <td>{produtos.descricao}</td>
                 <td>
-                  <Link to={`/produtos/edit/:${produtos.id}`}>
-                    <BsFillPencilFill color="gold" size={25} />
+                  <Link
+                    to={`/produtos/edit/${produtos.id}`}
+                    class="btn btn-outline-primary m-2"
+                  >
+                    Editar
                   </Link>
-                  <Link to="/">
-                    <BsFillBackspaceFill
-                      color="red"
-                      size={30}
-                      style={{ marginLeft: 10 }}
-                      onClick={() => {
-                        deleteProduto(produtos.id)
-                      }}
-                    />
+                  <Link
+                    to="/produtos"
+                    onClick={() => {
+                      deleteProduto(produtos.id)
+                    }}
+                    class="btn btn-danger "
+                  >
+                    Excluir
                   </Link>
                 </td>
               </tr>

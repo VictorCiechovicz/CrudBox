@@ -5,7 +5,7 @@ import axios from 'axios'
 const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
-  let history = useNavigate()
+  const navigate = useNavigate()
   const [produtos, setProdutos] = useState({
     codigo: '',
     nome: '',
@@ -27,7 +27,7 @@ const Addprodutos = () => {
   const onSubmit = async e => {
     e.preventDefault()
     await axios.post(baseUrl, produtos)
-    history.push('/')
+    navigate('/produtos')
   }
 
   const resetForm = () => {
@@ -105,13 +105,7 @@ const Addprodutos = () => {
             />
           </div>
 
-          <button
-            type="submit"
-            className="btn btn-primary "
-            /*  onClick={() => {
-              salvaProduto()
-            }}*/
-          >
+          <button type="submit" className="btn btn-primary ">
             Salvar
           </button>
           <button

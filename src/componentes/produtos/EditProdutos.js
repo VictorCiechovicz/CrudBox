@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 
-//const baseUrl = `http://localhost:3001/produtos/${id}`
-
 const Editprodutos = () => {
-  let history = useNavigate()
+  const navigate = useNavigate()
   const { id } = useParams()
 
   const [produtos, setProdutos] = useState({
@@ -26,7 +24,7 @@ const Editprodutos = () => {
   const onSubmit = async e => {
     e.preventDefault()
     await axios.put(`http://localhost:3001/produtos/${id}`, produtos)
-    history.push('/')
+    navigate('/produtos')
   }
 
   const loadProdutos = async () => {
@@ -45,7 +43,8 @@ const Editprodutos = () => {
             </label>
             <input
               type="text"
-              className="form-control"
+              className="form-control form-control-lg"
+              placeholder="Codigo do Produto"
               name="codigo"
               value={codigo}
               onChange={e => onInputChange(e)}
@@ -56,7 +55,8 @@ const Editprodutos = () => {
               </label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-lg"
+                placeholder="Nome do Produto"
                 name="nome"
                 value={nome}
                 onChange={e => onInputChange(e)}
@@ -70,23 +70,15 @@ const Editprodutos = () => {
             </label>
             <input
               type="text"
-              className="form-control"
+              className="form-control form-control-lg"
+              placeholder="Descricao do Produto"
               name="descricao"
               value={descricao}
               onChange={e => onInputChange(e)}
             />
           </div>
 
-          <button to="/produtos" type="submit" className="btn btn-primary ">
-            Salvar
-          </button>
-          <button
-            type="submit"
-            className="btn btn-primary "
-            style={{ marginLeft: 10, backgroundColor: 'red' }}
-          >
-            Cancelar
-          </button>
+          <button className="btn btn-warning btn-block">Update Produto</button>
         </form>
       </div>
     </div>
