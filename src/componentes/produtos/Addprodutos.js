@@ -5,16 +5,19 @@ import axios from 'axios'
 const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
+
   const navigate = useNavigate()
+
   const [produtos, setProdutos] = useState({
     codigo: '',
     nome: '',
     preco: '',
+    estoque: '',
     vendas: '',
     descricao: ''
   })
 
-  const { codigo, nome, preco, vendas, descricao } = produtos
+  const { codigo, nome, preco,estoque, vendas, descricao } = produtos
   const onInputChange = e => {
     setProdutos({ ...produtos, [e.target.name]: e.target.value })
   }
@@ -24,6 +27,7 @@ const Addprodutos = () => {
       setProdutos(...produtos)
     }
   }*/
+
   const onSubmit = async e => {
     e.preventDefault()
     await axios.post(baseUrl, produtos)
@@ -35,6 +39,7 @@ const Addprodutos = () => {
       codigo: '',
       nome: '',
       preco: '',
+      estoque: '',
       vendas: '',
       descricao: ''
     })
@@ -80,6 +85,16 @@ const Addprodutos = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
+  <label htmlFor="exampleInputEmail1" className="form-label">
+             Estoque
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              name="estoque"
+              value={estoque}
+              onChange={e => onInputChange(e)}
+            />
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Quantidade de Vendas

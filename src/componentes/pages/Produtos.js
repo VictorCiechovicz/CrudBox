@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import { BsFillBackspaceFill, BsFillPencilFill } from 'react-icons/bs'
 
 const baseUrl = 'http://localhost:3001/produtos'
 
@@ -31,6 +30,7 @@ const Produtos = () => {
               <th scope="col">Código</th>
               <th scope="col">Nome</th>
               <th scope="col">Preço</th>
+              <th scope="col">Q.Estoque</th>
               <th scope="col">Q.Vendas</th>
               <th scope="col">Descrição</th>
               <th scope="col">Actions</th>
@@ -43,6 +43,7 @@ const Produtos = () => {
                 <td>{produtos.codigo}</td>
                 <td>{produtos.nome}</td>
                 <td>{produtos.preco}</td>
+                <td>{produtos.estoque}</td>
                 <td>{produtos.vendas}</td>
                 <td>{produtos.descricao}</td>
                 <td>

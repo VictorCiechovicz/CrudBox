@@ -1,59 +1,309 @@
 {
   "produtos": [
     {
-      "codigo": "cuuu",
-      "nome": "zinhooooo",
-      "preco": "vsVS",
-      "vendas": "vwveVW",
-      "descricao": "Wvveewdaa",
+      "codigo": "1234",
+      "nome": "Quadro1111",
+      "preco": "14.00",
+      "estoque": "2",
+      "vendas": "2",
+      "descricao": "produto incrivelwcvwv",
       "id": 3
     },
     {
-      "codigo": "qqrfqe",
-      "nome": "FFWFwf",
-      "preco": "sdvSV",
-      "vendas": "svSDS",
-      "descricao": "/dlfmawlvb",
+      "codigo": "1234",
+      "nome": "Carro",
+      "preco": "15.00",
+      "estoque": "3",
+      "vendas": "5",
+      "descricao": "aleatoria",
       "id": 4
     },
     {
-      "codigo": "qqrfqe",
-      "nome": "FFWFwf",
-      "preco": "sdvSV",
-      "vendas": "svSDS",
-      "descricao": "/dlfmawlvb",
+      "codigo": "12345",
+      "nome": "Caixa",
+      "preco": "10.00",
+      "estoque": "1",
+      "vendas": "2",
+      "descricao": "Caixa preta",
       "id": 5
     },
     {
-      "codigo": "qqrfqe",
-      "nome": "FFWFwf",
-      "preco": "sdvSV",
-      "vendas": "svSDS",
-      "descricao": "teste",
+      "codigo": "123456",
+      "nome": "Roupero",
+      "preco": "17.00",
+      "estoque": "10",
+      "vendas": "7",
+      "descricao": "Testetesteteste",
       "id": 10
     },
     {
-      "codigo": "qqrfqe",
-      "nome": "FFWFwf",
-      "preco": "sdvSV",
-      "vendas": "svSDS",
-      "descricao": "teste",
+      "codigo": "12134567",
+      "nome": "Mesa",
+      "preco": "16.00",
+      "estoque": "12",
+      "vendas": "10",
+      "descricao": "TEsTESTESTETSETSET",
       "id": 11
     },
     {
       "codigo": "125426",
-      "nome": "mudou vidao ",
+      "nome": "Roupa Preta",
       "preco": "14.00",
+      "estoque": "15",
       "vendas": "50",
-      "descricao": "ruim pra poraa",
+      "descricao": "TESTETESTESTESTE",
       "id": 12
     },
     {
-      "codigo": "",
-      "nome": "",
-      "preco": "",
-      "vendas": "",
-      "descricao": "",
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "21",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "15",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "25",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "7",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "45",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "11",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "14",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "46",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "4",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "2",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "24",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "123",
+      "nome": "Quadro",
+      "preco": "14.00",
+      "estoque": "2",
+      "vendas": "2",
+      "descricao": "produto incrivel",
+      "id": 3
+    },
+    {
+      "codigo": "1234",
+      "nome": "Carro",
+      "preco": "15.00",
+      "estoque": "3",
+      "vendas": "5",
+      "descricao": "aleatoria",
+      "id": 4
+    },
+    {
+      "codigo": "12345",
+      "nome": "Caixa",
+      "preco": "10.00",
+      "estoque": "1",
+      "vendas": "2",
+      "descricao": "Caixa preta",
+      "id": 5
+    },
+    {
+      "codigo": "123456",
+      "nome": "Roupero",
+      "preco": "17.00",
+      "estoque": "10",
+      "vendas": "7",
+      "descricao": "Testetesteteste",
+      "id": 10
+    },
+    {
+      "codigo": "12134567",
+      "nome": "Mesa",
+      "preco": "16.00",
+      "estoque": "12",
+      "vendas": "10",
+      "descricao": "TEsTESTESTETSETSET",
+      "id": 11
+    },
+    {
+      "codigo": "125426",
+      "nome": "Roupa Preta",
+      "preco": "14.00",
+      "estoque": "15",
+      "vendas": "50",
+      "descricao": "TESTETESTESTESTE",
+      "id": 12
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "21",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "15",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "25",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "7",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "45",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "11",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "14",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "46",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "4",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "2",
+      "vendas": "4",
+      "descricao": "TESTESTES",
+      "id": 13
+    },
+    {
+      "codigo": "12345678",
+      "nome": "Computador 2",
+      "preco": "12.00",
+      "estoque": "24",
+      "vendas": "4",
+      "descricao": "TESTESTES",
       "id": 13
     }
   ]
