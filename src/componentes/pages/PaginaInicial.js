@@ -1,10 +1,13 @@
 import React from 'react'
-import { RocketIcon } from '@primer/octicons-react'
+import fundo from '../../assets/img/fundo.jpg'
 
 const PaginaInicial = () => {
   return (
     <div>
-      <h1>tela inicial</h1>
+      <img
+        src={fundo}
+        style={{ width: 650, height: 620, marginTop: 20, marginLeft: 300 }}
+      />
     </div>
   )
 }
