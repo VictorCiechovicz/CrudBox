@@ -4,12 +4,20 @@ import { Link } from 'react-router-dom'
 
 const baseUrl = 'http://localhost:3001/produtos'
 
-const Deshboard = () => {
+const Dashboard = () => {
   const [produtos, setProdutos] = useState([])
+  const [maiorEstoque, setMaiorEstoque] = useState([])
+  const [maiorPreco, setMaiorPreco] = useState([])
 
   useEffect(() => {
     loadProdutos()
   }, [])
+
+  useEffect(() => {
+    setMaiorPreco(produtos.sort((a, b) => b.preco - a.preco))
+    setMaiorEstoque(produtos.sort((a, b) => b.estoque - a.estoque))
+    console.log('produtos', produtos)
+  }, [produtos])
 
   const loadProdutos = async () => {
     const result = await axios.get(baseUrl)
@@ -19,19 +27,19 @@ const Deshboard = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h2>Produtos mais Caros</h2>
-        <table class="table">
+        <h1>Produtos mais Caros</h1>
+        <table className="table">
           <thead>
             <tr className="bg-dark text-white">
               <th scope="col">Posição</th>
               <th scope="col">Código</th>
               <th scope="col">Nome</th>
-              <th scope="col">Preco</th>
+              <th scope="col">Preço</th>
             </tr>
           </thead>
           <tbody>
-            {produtos.map((produtos, index) => (
-              <tr>
+            {maiorPreco.map((produtos, index) => (
+              <tr key={produtos.id}>
                 <th scope="row">{index + 1}</th>
                 <td>{produtos.codigo}</td>
                 <td>{produtos.nome}</td>
@@ -40,8 +48,9 @@ const Deshboard = () => {
             ))}
           </tbody>
         </table>
-        <h2>Produtos com mais Estoque</h2>
-        <table class="table">
+
+        <h1>Produtos com mais Estoque</h1>
+        <table className="table">
           <thead>
             <tr className="bg-dark text-white">
               <th scope="col">Posição</th>
@@ -51,8 +60,8 @@ const Deshboard = () => {
             </tr>
           </thead>
           <tbody>
-            {produtos.map((produtos, index) => (
-              <tr>
+            {maiorEstoque.map((produtos, index) => (
+              <tr key={produtos.id}>
                 <th scope="row">{index + 1}</th>
                 <td>{produtos.codigo}</td>
                 <td>{produtos.nome}</td>
@@ -66,4 +75,4 @@ const Deshboard = () => {
   )
 }
 
-export default Deshboard
+export default Dashboard

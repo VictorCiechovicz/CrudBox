@@ -42,7 +42,7 @@ const Editprodutos = () => {
               Código
             </label>
             <input
-              type="text"
+              type="number"
               className="form-control form-control-lg"
               placeholder="Codigo do Produto"
               name="codigo"

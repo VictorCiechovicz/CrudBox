@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Produtos from './componentes/pages/Produtos'
 import Sobre from './componentes/pages/Sobre'
-import Deshboard from './componentes/pages/Deshboard'
+import Dashboard from './componentes/pages/Dashboard'
 import Navbar from './componentes/layout/Navbar'
 import PageNotFound from './componentes/pages/PageNotFound'
 import Addprodutos from './componentes/produtos/Addprodutos'
@@ -15,7 +15,7 @@ function App() {
       <div className="container">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Deshboard />}></Route>
+          <Route exact path="/" element={<Dashboard />}></Route>
           <Route exact path="/produtos" element={<Produtos />}></Route>
           <Route exact path="/sobre" element={<Sobre />}></Route>
           <Route exact path="/produtos/add" element={<Addprodutos />}></Route>

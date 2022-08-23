@@ -5,7 +5,6 @@ import axios from 'axios'
 const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
-
   const navigate = useNavigate()
 
   const [produtos, setProdutos] = useState({
@@ -17,7 +16,7 @@ const Addprodutos = () => {
     descricao: ''
   })
 
-  const { codigo, nome, preco,estoque, vendas, descricao } = produtos
+  const { codigo, nome, preco, estoque, vendas, descricao } = produtos
   const onInputChange = e => {
     setProdutos({ ...produtos, [e.target.name]: e.target.value })
   }
@@ -54,7 +53,7 @@ const Addprodutos = () => {
               Código
             </label>
             <input
-              type="text"
+              type="number"
               className="form-control"
               name="codigo"
               value={codigo}
@@ -78,30 +77,30 @@ const Addprodutos = () => {
               Preco
             </label>
             <input
-              type="text"
-              className="form-control"
+              type="number"
+              className="form-control "
               name="preco"
               value={preco}
               onChange={e => onInputChange(e)}
             />
           </div>
-  <label htmlFor="exampleInputEmail1" className="form-label">
-             Estoque
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              name="estoque"
-              value={estoque}
-              onChange={e => onInputChange(e)}
-            />
+          <label htmlFor="exampleInputEmail1" className="form-label">
+            Estoque
+          </label>
+          <input
+            type="number"
+            className="form-control"
+            name="estoque"
+            value={estoque}
+            onChange={e => onInputChange(e)}
+          />
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Quantidade de Vendas
             </label>
             <input
-              type="text"
-              className="form-control"
+              type="number"
+              className="form-control "
               name="vendas"
               value={vendas}
               onChange={e => onInputChange(e)}
