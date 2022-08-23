@@ -1,11 +1,13 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Produtos from './componentes/pages/Produtos'
 import Sobre from './componentes/pages/Sobre'
-import Dashboard from './componentes/pages/Dashboard'
+import ProdutosMaisEstoque from './componentes/pages/ProdutosMaisEstoque'
+import ProdutosMaisCaros from './componentes/pages/ProdutosMaisCaros'
 import Navbar from './componentes/layout/Navbar'
 import PageNotFound from './componentes/pages/PageNotFound'
 import Addprodutos from './componentes/produtos/Addprodutos'
 import EditProdutos from './componentes/produtos/EditProdutos'
+import PaginaInicial from './componentes/pages/PaginaInicial'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -15,7 +17,18 @@ function App() {
       <div className="container">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Dashboard />}></Route>
+          <Route exact path="/" element={<PaginaInicial />}></Route>
+          <Route
+            exact
+            path="/ProdutosMaisEstoque"
+            element={<ProdutosMaisEstoque />}
+          ></Route>
+
+          <Route
+            exact
+            path="/ProdutosMaisCaros"
+            element={<ProdutosMaisCaros />}
+          ></Route>
           <Route exact path="/produtos" element={<Produtos />}></Route>
           <Route exact path="/sobre" element={<Sobre />}></Route>
           <Route exact path="/produtos/add" element={<Addprodutos />}></Route>

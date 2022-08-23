@@ -1,49 +1,32 @@
 {
   "produtos": [
+   
     {
-      "codigo": 1234543,
-      "nome": "Quadro1111",
-      "preco": 14,
-      "estoque": 2,
-      "vendas": 2,
-      "descricao": "produto incrivelwcvwv",
-      "id": 3
+      "codigo": "12542",
+      "nome": "testets",
+      "preco": "14.00",
+      "estoque": "4",
+      "vendas": "50",
+      "descricao": "descricao",
+      "id": 12
     },
     {
-      "codigo": 1234,
-      "nome": "Carro",
-      "preco": 15,
-      "estoque": 3,
-      "vendas": 5,
-      "descricao": "aleatoria",
-      "id": 4
+      "codigo": "121212",
+      "nome": "FFWFwf",
+      "preco": "14000",
+      "estoque": "5",
+      "vendas": "50",
+      "descricao": "ewgwgW",
+      "id": 13
     },
     {
-      "codigo": 12345,
-      "nome": "Caixa",
-      "preco": 50,
-      "estoque": 1,
-      "vendas": 2,
-      "descricao": "Caixa preta",
-      "id": 5
-    },
-    {
-      "codigo": 123456,
-      "nome": "Roupeiro",
-      "preco": 17,
-      "estoque": 14444,
-      "vendas": 7,
-      "descricao": "Testetesteteste",
-      "id": 10
-    },
-    {
-      "codigo": 12134567,
-      "nome": "Mesa",
-      "preco": 16,
-      "estoque": 60,
-      "vendas": 10,
-      "descricao": "TEsTESTESTETSETSET",
-      "id": 11
+      "codigo": "121212",
+      "nome": "FFWFwf",
+      "preco": "14500.00",
+      "estoque": "5",
+      "vendas": "561",
+      "descricao": "/dlfmawlvb",
+      "id": 14
     }
   ]
 }
