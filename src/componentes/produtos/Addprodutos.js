@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 import Navbar from '../layout/Navbar'
 
@@ -7,6 +7,7 @@ const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
   const navigate = useNavigate()
+
 
   const [produtos, setProdutos] = useState({
     codigo: '',
@@ -22,11 +23,7 @@ const Addprodutos = () => {
     setProdutos({ ...produtos, [e.target.name]: e.target.value })
   }
 
-  /* const salvaProduto = () => {
-    if (produtos !== '') {
-      setProdutos(...produtos)
-    }
-  }*/
+  //condição não esta filtrando e pegando atualizando quando inserimos um produto de código ja existente.
 
   const onSubmit = async e => {
     e.preventDefault()
@@ -34,6 +31,7 @@ const Addprodutos = () => {
     navigate('/produtos')
   }
 
+ 
   const resetForm = () => {
     setProdutos({
       codigo: '',
@@ -47,14 +45,15 @@ const Addprodutos = () => {
   return (
     <div className="container">
       <Navbar />
-      <div className="w-75 mx-auto shadow p-5 m-5">
-        <p className="text-center mb-4">ADICIONAR NOVO PRODUTO</p>
+      <div className="w-75 mx-auto shadow p-4 m-4">
+        <h2 className="text-center mb-4">ADICIONAR NOVO PRODUTO</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Código
             </label>
             <input
+              required
               type="number"
               className="form-control"
               name="codigo"
@@ -66,6 +65,7 @@ const Addprodutos = () => {
                 Nome
               </label>
               <input
+                required
                 type="text"
                 className="form-control"
                 name="nome"
@@ -79,6 +79,7 @@ const Addprodutos = () => {
               Preco
             </label>
             <input
+              required
               type="number"
               className="form-control "
               name="preco"
@@ -90,6 +91,7 @@ const Addprodutos = () => {
             Estoque
           </label>
           <input
+            required
             type="number"
             className="form-control"
             name="estoque"
@@ -101,6 +103,7 @@ const Addprodutos = () => {
               Quantidade de Vendas
             </label>
             <input
+              required
               type="number"
               className="form-control "
               name="vendas"
@@ -113,6 +116,7 @@ const Addprodutos = () => {
               Descricao
             </label>
             <input
+              required
               type="text"
               className="form-control"
               name="descricao"

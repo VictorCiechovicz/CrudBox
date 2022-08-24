@@ -1,5 +1,6 @@
 import React from 'react'
 import fundo from '../../assets/img/fundo.png'
+import button from '../../assets/img/button.png'
 import { Link, NavLink } from 'react-router-dom'
 
 const PaginaInicial = () => {
@@ -7,8 +8,7 @@ const PaginaInicial = () => {
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column',
-        
+        flexDirection: 'column'
       }}
     >
       <img
@@ -27,19 +27,19 @@ const PaginaInicial = () => {
           CRUDBOX
         </div>
         <div style={{ fontSize: 14, color: '#7C7C7C' }}>
-          Crud para controle de estoque, desenvolvido com React.js e padrao de consumo de
-          REST API.
+          Crud para controle de estoque, desenvolvido com React.js e padrao de
+          consumo de REST API.
         </div>
       </div>
 
       <div
         style={{
-          marginLeft: 600,
+          marginLeft: 480,
           marginTop: 20
         }}
       >
-        <Link to="/escolha" className="btn btn-primary">
-          SING UP
+        <Link to="/escolha">
+          <img src={button} style={{ width: 345, height: 60 }} />
         </Link>
       </div>
     </div>

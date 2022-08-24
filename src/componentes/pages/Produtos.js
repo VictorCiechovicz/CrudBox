@@ -33,9 +33,9 @@ const Produtos = () => {
       <Navbar />
 
       <div className="py-4">
-        <table class="table">
+        <table class="table table-hover ">
           <thead>
-            <tr className="bg-dark text-white">
+            <tr className="bg-white text-red">
               <th scope="col">#</th>
               <th scope="col">Código</th>
               <th scope="col">Nome</th>
@@ -48,7 +48,7 @@ const Produtos = () => {
           </thead>
           <tbody>
             {currentItens.map((produtos, index) => (
-              <tr>
+              <tr key={produtos.id}>
                 <th scope="row">{index + 1}</th>
                 <td>{produtos.codigo}</td>
                 <td>{produtos.nome}</td>
@@ -77,8 +77,7 @@ const Produtos = () => {
             ))}
           </tbody>
         </table>
-        <div>
-          
+        <div style={{ marginTop: 20, marginLeft: 500 }}>
           {Array.from(Array(pages), (item, index) => {
             return (
               <button

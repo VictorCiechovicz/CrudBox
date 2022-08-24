@@ -31,12 +31,6 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" aria-current="page" to="/produtos">
-                Lista Produtos
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
               <NavLink className="nav-link " aria-current="page" to="/sobre">
                 Sobre
               </NavLink>

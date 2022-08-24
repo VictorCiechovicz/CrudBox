@@ -35,7 +35,7 @@ const Editprodutos = () => {
   return (
     <div className="container">
       <div className="w-75 mx-auto shadow p-5 m-5">
-        <h2 className="text-center mb-4">Editar produto</h2>
+        <h2 className="text-center mb-4">EDITAR PRODUTO</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1" className="form-label">
