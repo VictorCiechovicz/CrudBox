@@ -12,5 +12,5 @@ Para startar o projeto utilize o comando personalizado
 
 npm run start:dev
 
+[chrome-capture-2022-7-24.webm](https://user-images.githubusercontent.com/106246945/186328450-fc566d80-e3a1-43bc-bb96-bfd38006ee50.webm)
 
-[chrome-capture-2022-7-22.webm](https://user-images.githubusercontent.com/106246945/186016974-60221544-56b1-499f-a6b3-1e7518c624ca.webm)
