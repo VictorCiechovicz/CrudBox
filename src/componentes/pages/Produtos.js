@@ -7,6 +7,13 @@ const baseUrl = 'http://localhost:3001/produtos'
 
 const Produtos = () => {
   const [produtos, setProdutos] = useState([])
+  const [itensPorPage, setItensPorPage] = useState(10)
+  const [currentPage, setCurrentPage] = useState(0)
+
+  const pages = Math.ceil(produtos.length / itensPorPage)
+  const startIndex = currentPage * itensPorPage
+  const endIndex = startIndex + itensPorPage
+  const currentItens = produtos.slice(startIndex, endIndex)
 
   useEffect(() => {
     loadProdutos()
@@ -24,6 +31,18 @@ const Produtos = () => {
   return (
     <div className="container">
       <Navbar />
+      <div>
+        {Array.from(Array(pages), (item, index) => {
+          return (
+            <button
+              value={index}
+              onClick={e => setCurrentPage(Number(e.target.value))}
+            >
+              {index}
+            </button>
+          )
+        })}
+      </div>
       <div className="py-4">
         <table class="table">
           <thead>
@@ -39,7 +58,7 @@ const Produtos = () => {
             </tr>
           </thead>
           <tbody>
-            {produtos.map((produtos, index) => (
+            {currentItens.map((produtos, index) => (
               <tr>
                 <th scope="row">{index + 1}</th>
                 <td>{produtos.codigo}</td>
