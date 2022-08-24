@@ -31,18 +31,7 @@ const Produtos = () => {
   return (
     <div className="container">
       <Navbar />
-      <div>
-        {Array.from(Array(pages), (item, index) => {
-          return (
-            <button
-              value={index}
-              onClick={e => setCurrentPage(Number(e.target.value))}
-            >
-              {index}
-            </button>
-          )
-        })}
-      </div>
+
       <div className="py-4">
         <table class="table">
           <thead>
@@ -88,6 +77,19 @@ const Produtos = () => {
             ))}
           </tbody>
         </table>
+        <div>
+          
+          {Array.from(Array(pages), (item, index) => {
+            return (
+              <button
+                value={index}
+                onClick={e => setCurrentPage(Number(e.target.value))}
+              >
+                {index + 1}
+              </button>
+            )
+          })}
+        </div>
       </div>
     </div>
   )

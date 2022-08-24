@@ -539,6 +539,15 @@
       "vendas": "561",
       "descricao": "teste",
       "id": 15
+    },
+    {
+      "codigo": "",
+      "nome": "",
+      "preco": "",
+      "estoque": "",
+      "vendas": "",
+      "descricao": "",
+      "id": 16
     }
   ]
 }

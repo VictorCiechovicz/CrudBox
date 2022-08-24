@@ -1,10 +1,10 @@
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
 
 import fundo from '../../assets/img/fundoEscolha.png'
-import adicionar from '../../assets/img/Adicionar.png'
-import produtos from '../../assets/img/Produtos.png'
-import maiorestoque from '../../assets/img/MaiorEstoque.png'
-import maiorvalor from '../../assets/img/MaiorValor.png'
+import adicionar from '../../assets/img/adicionar.png'
+import produtos from '../../assets/img/produtos.png'
+import maiorestoque from '../../assets/img/estoque.png'
+import maiorvalor from '../../assets/img/valor.png'
 import Navbar from '../layout/Navbar'
 import { Link } from 'react-router-dom'
 
@@ -14,8 +14,9 @@ function Escolha() {
       <Navbar />
       <div style={{ display: 'flex' }}>
         <img
+          title="add"
           src={fundo}
-          style={{ width: 650, height: 370, marginTop: 150, marginRight: 100 }}
+          style={{ width: 650, height: 370, marginTop: 150, marginRight: 50 }}
         />
 
         <div
