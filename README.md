@@ -3,7 +3,7 @@ Crud para o cadastro de produtos desenvolvido em React.js utiliando padrao de co
 
 Para rodar este projeto em sua máquina:
 
-##1 instale o gerenciador de pacotes npm dentro do projeto 
+##1 Instale o gerenciador de pacotes npm dentro do projeto 
 
 ##2 Para startar o projeto utilize o comando personalizado, este comando vai iniciar em conjunto com o db.json
 
