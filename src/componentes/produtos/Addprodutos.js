@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import Navbar from '../layout/Navbar'
 
 const baseUrl = 'http://localhost:3001/produtos'
 
@@ -45,8 +46,9 @@ const Addprodutos = () => {
   }
   return (
     <div className="container">
+      <Navbar />
       <div className="w-75 mx-auto shadow p-5 m-5">
-        <h2 className="text-center mb-4">Adicionar novo produto</h2>
+        <p className="text-center mb-4">ADICIONAR NOVO PRODUTO</p>
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1" className="form-label">
@@ -118,21 +120,22 @@ const Addprodutos = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-
-          <button type="submit" className="btn btn-primary ">
-            Salvar
-          </button>
-          <button
-            value="Reset"
-            type="reset"
-            className="btn btn-primary "
-            style={{ marginLeft: 10, backgroundColor: 'red' }}
-            onClick={() => {
-              resetForm()
-            }}
-          >
-            Cancelar
-          </button>
+          <div style={{ marginLeft: 350 }}>
+            <button type="submit" className="btn btn-primary ">
+              Salvar
+            </button>
+            <button
+              value="Reset"
+              type="reset"
+              className="btn btn-light"
+              style={{ marginLeft: 10 }}
+              onClick={() => {
+                resetForm()
+              }}
+            >
+              Limpar
+            </button>
+          </div>
         </form>
       </div>
     </div>

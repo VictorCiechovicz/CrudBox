@@ -1,6 +1,5 @@
 {
   "produtos": [
-   
     {
       "codigo": "12542",
       "nome": "testets",
@@ -27,6 +26,15 @@
       "vendas": "561",
       "descricao": "/dlfmawlvb",
       "id": 14
+    },
+    {
+      "codigo": "12542",
+      "nome": "FFWFwf",
+      "preco": "14.00",
+      "estoque": "50",
+      "vendas": "561",
+      "descricao": "teste",
+      "id": 15
     }
   ]
 }

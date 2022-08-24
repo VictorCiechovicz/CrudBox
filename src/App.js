@@ -8,6 +8,7 @@ import PageNotFound from './componentes/pages/PageNotFound'
 import Addprodutos from './componentes/produtos/Addprodutos'
 import EditProdutos from './componentes/produtos/EditProdutos'
 import PaginaInicial from './componentes/pages/PaginaInicial'
+import Escolha from './componentes/pages/Escolha'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -15,15 +16,14 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<PaginaInicial />}></Route>
+          <Route exact path="/escolha" element={<Escolha />}></Route>
           <Route
             exact
             path="/ProdutosMaisEstoque"
             element={<ProdutosMaisEstoque />}
           ></Route>
-
           <Route
             exact
             path="/ProdutosMaisCaros"

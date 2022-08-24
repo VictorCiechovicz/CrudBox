@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import Navbar from '../layout/Navbar'
 
 const baseUrl = 'http://localhost:3001/produtos'
 
 const ProdutosMaisEstoque = () => {
   const [produtos, setProdutos] = useState([])
-  const [maiorEstoque, setMaiorEstoque] = useState([])
 
   useEffect(() => {
     loadProdutos()
   }, [])
 
-  useEffect(() => {
-    setMaiorEstoque(produtos.sort((a, b) => b.estoque - a.estoque))
-  }, [produtos])
+  const produtosMaiorEstoque = [...produtos].sort((a, b) => {
+    return b.estoque - a.estoque
+  })
 
   const loadProdutos = async () => {
     const result = await axios.get(baseUrl)
@@ -22,6 +22,7 @@ const ProdutosMaisEstoque = () => {
 
   return (
     <div className="container">
+      <Navbar />
       <div className="py-4">
         <h1>Produtos com mais Estoque</h1>
         <table className="table">
@@ -34,14 +35,16 @@ const ProdutosMaisEstoque = () => {
             </tr>
           </thead>
           <tbody>
-            {maiorEstoque.map((produtos, index) => (
-              <tr key={produtos.id}>
-                <th scope="row">{index + 1}</th>
-                <td>{produtos.codigo}</td>
-                <td>{produtos.nome}</td>
-                <td>{produtos.estoque}</td>
-              </tr>
-            ))}
+            {produtosMaiorEstoque.map((produtos, index) =>
+              index < 3 ? (
+                <tr key={produtos.id}>
+                  <th scope="row">{index + 1}º</th>
+                  <td>{produtos.codigo}</td>
+                  <td>{produtos.nome}</td>
+                  <td>{produtos.estoque}</td>
+                </tr>
+              ) : null
+            )}
           </tbody>
         </table>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Navbar from '../layout/Navbar'
 
 const baseUrl = 'http://localhost:3001/produtos'
 
@@ -22,6 +23,7 @@ const Produtos = () => {
   }
   return (
     <div className="container">
+      <Navbar />
       <div className="py-4">
         <table class="table">
           <thead>
