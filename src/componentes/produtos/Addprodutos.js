@@ -28,15 +28,6 @@ const Addprodutos = () => {
     navigate('/produtos')
   }
 
-  useEffect(() => {
-    loadProdutos()
-  }, [])
-
-  const loadProdutos = async () => {
-    const result = await axios.get(baseUrl)
-    setProdutos(result.data)
-  }
-
   const resetForm = () => {
     setProdutos({
       codigo: '',
