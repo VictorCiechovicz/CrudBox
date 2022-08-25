@@ -7,7 +7,7 @@
       "estoque": "5",
       "vendas": "561",
       "descricao": "/dlfmawlvb",
-      "id": 14
+      "id": 1
     },
     {
       "codigo": "12542",
@@ -16,7 +16,7 @@
       "estoque": "50",
       "vendas": "561",
       "descricao": "teste",
-      "id": 15
+      "id": 2
     },
     {
       "codigo": "12542",
@@ -25,7 +25,7 @@
       "estoque": "4",
       "vendas": "50",
       "descricao": "descricao",
-      "id": 12
+      "id": 3
     },
     {
       "codigo": "121212",
@@ -34,7 +34,7 @@
       "estoque": "5",
       "vendas": "50",
       "descricao": "ewgwgW",
-      "id": 13
+      "id": 4
     },
     {
       "codigo": "121212",
@@ -43,7 +43,7 @@
       "estoque": "5",
       "vendas": "561",
       "descricao": "/dlfmawlvb",
-      "id": 14
+      "id": 5
     },
     {
       "codigo": "12542",
@@ -52,7 +52,7 @@
       "estoque": "50",
       "vendas": "561",
       "descricao": "teste",
-      "id": 15
+      "id": 6
     },
     {
       "codigo": "12542",
@@ -61,7 +61,7 @@
       "estoque": "4",
       "vendas": "50",
       "descricao": "descricao",
-      "id": 12
+      "id": 7
     },
     {
       "codigo": "121212",
@@ -70,7 +70,7 @@
       "estoque": "5",
       "vendas": "50",
       "descricao": "ewgwgW",
-      "id": 13
+      "id": 8
     },
     {
       "codigo": "121212",
@@ -79,7 +79,7 @@
       "estoque": "5",
       "vendas": "561",
       "descricao": "/dlfmawlvb",
-      "id": 14
+      "id": 9
     },
     {
       "codigo": "12542",
@@ -88,7 +88,7 @@
       "estoque": "50",
       "vendas": "561",
       "descricao": "teste",
-      "id": 15
+      "id": 10
     },
     {
       "codigo": "12542",
@@ -97,7 +97,7 @@
       "estoque": "4",
       "vendas": "50",
       "descricao": "descricao",
-      "id": 12
+      "id": 11
     },
     {
       "codigo": "121212",
@@ -106,7 +106,7 @@
       "estoque": "5",
       "vendas": "50",
       "descricao": "ewgwgW",
-      "id": 13
+      "id": 12
     },
     {
       "codigo": "121212",
@@ -115,7 +115,7 @@
       "estoque": "5",
       "vendas": "561",
       "descricao": "/dlfmawlvb",
-      "id": 14
+      "id": 13
     },
     {
       "codigo": "12542",
@@ -124,7 +124,7 @@
       "estoque": "50",
       "vendas": "561",
       "descricao": "teste",
-      "id": 15
+      "id": 14
     },
     {
       "codigo": "12542",
@@ -133,7 +133,7 @@
       "estoque": "4",
       "vendas": "50",
       "descricao": "descricao",
-      "id": 12
+      "id": 15
     },
     {
       "codigo": "121212",
@@ -142,475 +142,44 @@
       "estoque": "5",
       "vendas": "50",
       "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "12542",
-      "nome": "testets",
-      "preco": "14.00",
-      "estoque": "4",
-      "vendas": "50",
-      "descricao": "descricao",
-      "id": 12
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14000",
-      "estoque": "5",
-      "vendas": "50",
-      "descricao": "ewgwgW",
-      "id": 13
-    },
-    {
-      "codigo": "121212",
-      "nome": "FFWFwf",
-      "preco": "14500.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "/dlfmawlvb",
-      "id": 14
-    },
-    {
-      "codigo": "12542",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "50",
-      "vendas": "561",
-      "descricao": "teste",
-      "id": 15
-    },
-    {
-      "codigo": "",
-      "nome": "",
-      "preco": "",
-      "estoque": "",
-      "vendas": "",
-      "descricao": "",
       "id": 16
     },
     {
-      "codigo": "123",
-      "nome": "asasas",
-      "preco": "4566666666",
-      "estoque": "6052",
-      "vendas": "150",
-      "descricao": "dçfkagvçbov",
+      "codigo": "121212",
+      "nome": "FFWFwf",
+      "preco": "14500.00",
+      "estoque": "5",
+      "vendas": "561",
+      "descricao": "/dlfmawlvb",
       "id": 17
     },
     {
-      "codigo": "121212651616",
+      "codigo": "12542",
       "nome": "FFWFwf",
-      "preco": "50",
-      "estoque": "500",
-      "vendas": "50",
+      "preco": "14.00",
+      "estoque": "50",
+      "vendas": "561",
       "descricao": "teste",
       "id": 18
     },
     {
-      "codigo": "121212651616",
-      "nome": "FFWFwf",
+      "codigo": "12542",
+      "nome": "testets",
       "preco": "14.00",
-      "estoque": "5",
+      "estoque": "4",
       "vendas": "50",
-      "descricao": "/dlfmawlvb",
+      "descricao": "descricao",
       "id": 19
     },
     {
-      "codigo": "121212651616",
+      "codigo": "121212",
       "nome": "FFWFwf",
-      "preco": "14.00",
+      "preco": "14000",
       "estoque": "5",
-      "vendas": "561",
+      "vendas": "50",
       "descricao": "ewgwgW",
       "id": 20
-    },
-    {
-      "codigo": "121514",
-      "nome": "asasas",
-      "preco": "14.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "ewgwgW",
-      "id": 21
-    },
-    {
-      "codigo": "121514",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "sVSV",
-      "id": 22
-    },
-    {
-      "codigo": "121212651616",
-      "nome": "FFWFwf",
-      "preco": "14.00",
-      "estoque": "5",
-      "vendas": "561",
-      "descricao": "sVSV",
-      "id": 23
-    },
-    {
-      "codigo": "2333",
-      "nome": "shop",
-      "preco": "3432",
-      "estoque": "453",
-      "vendas": "63463",
-      "descricao": "jjrsjr",
-      "id": 24
-    },
-    {
-      "codigo": "11111111111111111",
-      "nome": "sssssssssssssssssss",
-      "preco": "3333333333333333333",
-      "estoque": "4444444444444444",
-      "vendas": "5555555555555555",
-      "descricao": "gragrgG",
-      "id": 25
     }
+    
   ]
 }

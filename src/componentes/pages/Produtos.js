@@ -18,6 +18,7 @@ const Produtos = () => {
   useEffect(() => {
     loadProdutos()
   }, [])
+  useEffect(() => {})
 
   const loadProdutos = async () => {
     const result = await axios.get(baseUrl)
@@ -77,7 +78,16 @@ const Produtos = () => {
             ))}
           </tbody>
         </table>
-        <div style={{ marginTop: 20, marginLeft: 500 }}>
+        <div>
+          <select
+            value={itensPorPage}
+            onChange={e => setItensPorPage(Number(e.target.value))}
+          >
+            <option value={5}>5</option>
+            <option value={10}>10</option>
+          </select>
+        </div>
+        <div style={{ marginLeft: 500 }}>
           {Array.from(Array(pages), (item, index) => {
             return (
               <button

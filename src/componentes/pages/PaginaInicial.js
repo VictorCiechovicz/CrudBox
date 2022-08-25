@@ -39,7 +39,7 @@ const PaginaInicial = () => {
         }}
       >
         <Link to="/escolha">
-          <img src={button} style={{ width: 345, height: 60 }} />
+          <img src={button} style={{ mwidth: 345, height: 60 }} />
         </Link>
       </div>
     </div>

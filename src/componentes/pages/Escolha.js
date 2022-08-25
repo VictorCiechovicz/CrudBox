@@ -12,6 +12,7 @@ function Escolha() {
   return (
     <div className="container">
       <Navbar />
+
       <div style={{ display: 'flex' }}>
         <img
           title="add"
@@ -24,10 +25,10 @@ function Escolha() {
         >
           <div>
             <Link to="/produtos/add" className="btn btn-outline-light w-20">
-              <img src={adicionar} style={{ width: 210, height: 200 }} />
+              <img src={adicionar} style={{ width: 180, height: 175 }} />
             </Link>
             <Link to="/produtos" className="btn btn-outline-light w-20">
-              <img src={produtos} style={{ width: 210, height: 200 }} />
+              <img src={produtos} style={{ width: 180, height: 175 }} />
             </Link>
           </div>
           <div>
@@ -35,13 +36,13 @@ function Escolha() {
               to="/ProdutosMaisEstoque"
               className="btn btn-outline-light w-20"
             >
-              <img src={maiorestoque} style={{ width: 210, height: 200 }} />
+              <img src={maiorestoque} style={{ width: 180, height: 175 }} />
             </Link>
             <Link
               to="/ProdutosMaisCaros"
               className="btn btn-outline-light w-20"
             >
-              <img src={maiorvalor} style={{ width: 210, height: 200 }} />
+              <img src={maiorvalor} style={{ width: 180, height: 175 }} />
             </Link>
           </div>
         </div>
