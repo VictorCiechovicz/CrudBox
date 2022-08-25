@@ -7,7 +7,6 @@ const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
   const navigate = useNavigate()
-  const { id } = useParams()
 
   const [produtos, setProdutos] = useState({
     codigo: '',
@@ -25,18 +24,10 @@ const Addprodutos = () => {
 
   const onSubmit = async e => {
     e.preventDefault()
-    //Se o codigo do produto ja existir atualiza a quantidade.
-    if (loadProdutos(produtos.codigo) === setProdutos.codigo) {
-      await axios.put(`http://localhost:3001/produtos/${id}`, produtos.estoque)
-      navigate('/produtos')
-    }
-    //Se nao cria novo
-    else {
-      await axios.post(baseUrl, produtos)
-      navigate('/produtos')
-      console.log(e.target.value)
-    }
+    await axios.post(baseUrl, produtos)
+    navigate('/produtos')
   }
+
   useEffect(() => {
     loadProdutos()
   }, [])
