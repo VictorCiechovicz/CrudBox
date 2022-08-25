@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 import Navbar from '../layout/Navbar'
@@ -7,7 +7,7 @@ const baseUrl = 'http://localhost:3001/produtos'
 
 const Addprodutos = () => {
   const navigate = useNavigate()
-
+  const { id } = useParams()
 
   const [produtos, setProdutos] = useState({
     codigo: '',
@@ -23,15 +23,29 @@ const Addprodutos = () => {
     setProdutos({ ...produtos, [e.target.name]: e.target.value })
   }
 
-  //condição não esta filtrando e pegando atualizando quando inserimos um produto de código ja existente.
-
   const onSubmit = async e => {
     e.preventDefault()
-    await axios.post(baseUrl, produtos)
-    navigate('/produtos')
+    //Se o codigo do produto ja existir atualiza a quantidade.
+    if (loadProdutos(produtos.codigo) === setProdutos.codigo) {
+      await axios.put(`http://localhost:3001/produtos/${id}`, produtos.estoque)
+      navigate('/produtos')
+    }
+    //Se nao cria novo
+    else {
+      await axios.post(baseUrl, produtos)
+      navigate('/produtos')
+      console.log(e.target.value)
+    }
+  }
+  useEffect(() => {
+    loadProdutos()
+  }, [])
+
+  const loadProdutos = async () => {
+    const result = await axios.get(baseUrl)
+    setProdutos(result.data)
   }
 
- 
   const resetForm = () => {
     setProdutos({
       codigo: '',
