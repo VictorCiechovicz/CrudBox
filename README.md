@@ -5,6 +5,8 @@ Para rodar este projeto em sua máquina:
 
 ##1 Instale o gerenciador de pacotes npm dentro do projeto 
 
+npm install
+
 ##2 Para startar o projeto utilize o comando personalizado, este comando vai iniciar em conjunto com o db.json
 
 npm run start:dev
