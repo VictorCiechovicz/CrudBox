@@ -9,8 +9,12 @@ Bootstrap 5
 Axios
 React Navigation
 And more...
+
 🛠️ Features
-Crud para o cadastro de produtos desenvolvido em React.js utiliando padrao de consumo REST API para consulta a db.json. Utilizando de Bootstrap para algumas estilizações.
+Crud para o cadastro de produtos desenvolvido em React.js 
+utilizando padrao de consumo REST API para consulta a db.json. 
+Utilizando de Bootstrap para algumas estilizações.
+
 🔧 Running
 You have one branchs. The main you have project base with layout design only and project finished with charts implemented.
 
