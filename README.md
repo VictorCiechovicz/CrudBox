@@ -8,12 +8,12 @@
 ## ****✨ Stack****
 
 - React
--Json Server
--Hooks
--Bootstrap 5
--Axios
--React Navigation
--And more...
+- Json Server
+- Hooks
+- Bootstrap 5
+- Axios
+- React Navigation
+- And more...
 
 ## **🛠️ Features**
 
